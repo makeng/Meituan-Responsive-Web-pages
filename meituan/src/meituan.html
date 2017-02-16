@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>深圳美团网</title>
+    <!--<link rel="icon" href="" type="image/x-icon" />--><!--标题图标-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="css/iconfont.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!------------------------------------------------搜索栏------------------------------------------>
+    <header class="head">
+        <!--地区-->
+        <a class="head-locate" href="">深圳 <i>></i></a>
+        <!--搜索框-->
+        <a class="head-search" href="">
+            <i class="iconfont icon-sousuo"></i>输入商家/品类/商圈
+        </a>
+        <!--用户-->
+        <a class="head-user" href="">
+            <i class="iconfont icon-iconfontyonghu"></i><p>我的</p>
+        </a>
+    </header>
+<!--------------------------------------------------引导选项-------------------------------------->
+    <div class="banner">
+        <!-- Swiper -->
+            <div class="swiper-container tipsContent">
+                <div class="swiper-wrapper tipsContent-wrap">
+                    <!--第一页-->
+                    <div class="swiper-slide tipsContent-wrap-page page1">
+                        <a href=""><i class="iconfont icon-meishi"></i><p>美食</p></a
+                        ><a href=""><i class="iconfont icon-dianying"></i><p>电影</p></a
+                        ><a href=""><i class="iconfont icon-jiazhuang"></i><p>酒店</p></a
+                        ><a href=""><i class="iconfont icon-xiuxianyule"></i><p>休闲娱乐</p></a
+                        ><a href=""><i class="iconfont icon-waimai"></i><p>外卖</p></a
+                        ><a href=""><i class="iconfont icon-ktv"></i><p>KTV</p></a
+                        ><a href=""><i class="iconfont icon-lvyou"></i><p>周边游</p></a
+                        ><a href=""><i class="iconfont icon-liren"></i><p>丽人</p></a
+                        ><a href=""><i class="iconfont icon-xiaochikuaican"></i><p>小吃快餐</p></a
+                        ><a href=""><i class="iconfont icon-huochepiao"></i><p>机票/火车票</p></a>
+                    </div>
+                    <!--第二页-->
+                    <div class="swiper-slide tipsContent-wrap-page page2">
+                        <a href=""><i class="iconfont icon-huli"></i><p>生活服务</p></a
+                        ><a href=""><i class="iconfont icon-jinrixindan"></i><p>今日新单</p></a
+                        ><a href=""><i class="iconfont icon-zuliao"></i><p>足疗按摩</p></a
+                        ><a href=""><i class="iconfont icon-aichitianshi"></i><p>甜品饮品</p></a
+                        ><a href=""><i class="iconfont icon-jiehun"></i><p>婚纱摄影</p></a
+                        ><a href=""><i class="iconfont icon-qinzi"></i><p>母婴亲子</p></a
+                        ><a href=""><i class="iconfont icon-peixun"></i><p>学习培训</p></a
+                        ><a href=""><i class="iconfont icon-jiehun"></i><p>结婚</p></a
+                        ><a href=""><i class="iconfont icon-jiazhuang"></i><p>家装</p></a
+                        ><a href=""><i class="iconfont icon-quanbu"></i><p>全部分类</p></a>
+                    </div>
+                </div>
+            </div>
+        <!-- 导航按钮 -->
+        <div class="swiper-pagination"></div>
+    </div>
+<!--------------------------------------------------活动栏-------------------------------------->
+    <div class="activity">
+        <a href="javascript:;" class="activity-1">
+            <h2>我们约吧</h2>
+            <i>恋人家人好朋友</i>
+            <img class="lazy" src="img/act_0.png">
+        </a>
+        <div class="activity-2">
+            <a href="" class="activity-2-1">
+                <div>
+                    <h2>低价超值</h2>
+                    <i>十元惠生活</i>
+                </div>
+                <img class="lazy" src="img/act_1.jpg">
+            </a>
+            <div class="activity-2-2">
+                <a href="" class="activity-2-2-sub">
+                    <div>
+                        <h2>午后时光</h2>
+                        <i>懒懒下午茶</i>
+                    </div>
+                    <img class="lazy" src="img/act_2.png">
+                </a>
+                <a href="" class="activity-2-2-sub">
+                    <div>
+                        <h2>名店抢购</h2>
+                        <i>距离结束</i>
+                        <ul id="cnt-down"><!--倒计时-->
+                            <li>00</li><li>00</li><li>00</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+<!--------------------------------------------------猜你喜欢-------------------------------------->
+    <div class="favor">
+        <div class="favor-whiteWrap"></div><!--从加载后，慢慢隐藏-->
+        <h2>猜你喜欢</h2>
+        <div class="favor-wrap">
+            <a class="favor-wrap-sub" href="">
+                <dl><dt><span>免预约</span></dt><dd><img src=""></dd></dl>
+                <h3>名字</h3>
+                <i>描述</i>
+                <p><strong>元&nbsp;</strong>门市价:<b></b>元</p>
+                <em>已售</em>
+            </a>
+        </div>
+        <a href="" class="favor-checkAll">查看全部团购<i> ></i></a>
+    </div>
+<!--------------------------------------------------底部-------------------------------------->
+    <footer class="footer">
+        <dl class="footer-login">
+            <dt><a href="">登录</a></dt>
+            <dt><a href="">注册</a></dt>
+            <dd>城市：<a href="">深圳</a></dd>
+        </dl>
+        <ul class="footer-nav">
+            <li><a href="">首页</a></li>
+            <li><a href="">订单</a></li>
+            <li><a href="">美团下载</a></li>
+            <li><a href="">电脑版</a></li>
+            <li><a href="">帮助</a></li>
+        </ul>
+        <div class="footer-friendLink">友情链接：<a href="">猫眼电影</a></div>
+        <div class="footer-copyright">
+            <b>©2016 美团网 <a href="">京ICP证070791号</a></b>
+            <i></i>
+        </div>
+    </footer>
+<!--------------------------------------------------回到顶端按钮-------------------------------------->
+    <div class="btnBack">
+        <i class="iconfont icon-xiangshangjiantou"></i>
+    </div>
+</body>
+<!--------------------------------------------------JS-------------------------------------->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/main.min.js"></script>
+</html>
